@@ -1,0 +1,1022 @@
+/*本样式表为该网页bbody部分样式*/
+.box{
+	border: 1px solid #dbdbdb;
+	/*height: 240px;*/
+}
+ul,li{
+	list-style: none;
+}
+.row{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.row .rowLeft{
+	width: 728px;
+	float: left;
+}
+.row .rowRight{
+	width: 238px;
+	float: right;
+}
+h2.color_orange{
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	width: 120px;
+	background: #F16D15;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+h2.color_black{
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 10px;
+	float: left;
+}
+.box .box_title{
+	background: url(../img/navbg.jpg) repeat-x;
+	height: 32px;
+	border-bottom: 1px solid #DBDBDB;
+	overflow: hidden;
+}
+#rowLeft{
+	width: 358px;
+	margin-right: 10px;
+}
+#rowMiddle{
+	width: 358px;
+	float: left;
+}
+#rowRight{
+	width: 238px;
+}
+.box .box_title .more{
+	line-height: 32px;
+	margin-right: 10px;
+	float: right;
+}
+.box .box_body li{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*导航条选项卡样式开始*/
+.navs .box_title ul li{
+	display: block;
+	width: 100px;
+	line-height: 32px;
+	text-align: center;
+	border-right: 1px solid #DBDBDB;
+	cursor: pointer;
+	float: left;
+}
+.navs .navsbox_title_selected{
+	background: #FFFFFF;
+	border-top: 2px solid #F16D15;
+}
+/*---------------*/
+.navs .box .tools{
+	border-top: 1px dashed #DBDBDB;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.navs .box .tools>div{
+	float: left;
+	width: 68px;
+	padding-left: 10px;
+	padding-right: 11px;
+}
+.navs .box .tools>div:last-child{
+	padding-right: 0px;
+}
+.navs .box .tools>div>div{
+	width: 68px;
+	height: 68px;
+}
+.navs .box .tools>div>div img{
+	width: 68px;
+	height: 68px;
+}
+.navs .box .tools>div p{
+	width: 68px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*-------------*/
+.navs .box_body{
+	padding-top: 14px;
+}
+.navs .box_body .box_bodytag{
+	width: 958px;
+	padding: 0 10px;
+}
+.navs .box_body .box_bodytag .tag_row{
+	width: 100%;
+	overflow: hidden;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.navs .box_body .box_bodytag .tag_row .tag_row_left{
+	float: left;
+	width: 38px;
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+	border: 1px solid #F16D15;
+	background: #F16D15;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+.navs .box_body .box_bodytag .tag_row  .bg_blue{
+	border: 1px solid #3A95DF;
+	background: #3A95DF;
+}
+.navs .box_body .box_bodytag .tag_row .tag_row_right{
+	float: left;
+	width: 890px;
+	overflow: hidden;
+}
+.navs .box_body .box_bodytag .tag_row .tag_row_right a{
+	display: inline-block;
+}
+.navs .box_body .box_bodytag .tag_row .tag_row_right span{
+	color: #DBDBDB;
+	margin: 0 5px;
+}
+/*导航条选项卡样式结束*/
+/*资讯部分样式开始*/
+.news .slideBox{
+	width: 350px;
+	height: 240px;
+	border: 1px solid #DBDBDB;
+	padding: 4px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.news .slideBox .hd{
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 1;
+}
+.news .slideBox .hd ul{overflow: hidden;zoom: 1; float: left;}
+.news .slideBox .hd ul li{float:left; margin-right:2px; width: 15px; height: 15px;line-height: 14px;text-align: center;background: #FFFFFF; cursor: pointer;}
+.news .slideBox .hd ul li.on{background: #f00;color: #FFFFFF;}
+.news .slideBox .bd{position: relative; height: 100%;z-index: 0;}
+.news .slideBox .bd li{zoom: 1; vertical-align: middle;}
+.news .slideBox .bd img{width: 350px; height: 240px;}
+
+
+/*------------*/
+.news .video_rec{
+	width: 358px;
+	border: 1px solid #DBDBDB;
+	padding-bottom: 13px;
+}
+.news .video_rec_title{
+	height: 30px;
+    line-height: 30px;
+    padding: 0 14px 8px;
+}
+.news .video_rec_title h3{
+	color: #f16d15;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+    border-bottom: 1px solid #6d747b;
+    
+}
+.news .video_rec_title>div{
+	height: 30px;
+	margin-left: 60px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.news .video_rec_title .more{
+	float: right;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.news .video_rec_body{
+	overflow: hidden;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+.news .video_rec_body>div>div a img{
+	width: 158px;
+	height: 103px;
+	z-index: 1;
+}
+.news .video_rec_body>div{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.news .video_rec_body>div p{
+	width: 158px;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-top: 5px;
+	text-overflow: ellipsis;
+	margin: 0 auto;
+}
+.news .video_rec_bodyPic{
+	position: relative;
+}
+.news .video_rec_bodyPic:hover {
+    text-decoration: none;
+    width: 100%;
+}
+.news .video_rec_bodyPic:hover strong {
+    background: rgba(0, 0, 0, 0) url("../img/icohova.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    width:25px;
+    position: absolute;
+    top: 41px;
+    left: 77px;
+    z-index: 2;
+}
+
+.news .video_rec_list{
+	padding: 10px 14px 0px;
+ }
+.news .video_rec_list ul li{
+  	width: 310px;
+  	padding-left: 20px;
+  	height: 30px;
+  	line-height: 30px;
+  	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url(../img/iconb.gif) no-repeat 0px -63px;
+  }
+/*------*/
+.news .rowMiddleBox{
+	width: 358px;
+}
+.news .rowMiddleNav ul{
+	overflow: hidden;
+}
+.news .rowMiddleNav ul li{
+	width: 118px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-right: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;
+	background: #F0F0F0;
+	list-style: none;
+	float: left;
+}
+.news .rowMiddleNav ul li:last-child{
+	border-right: none;
+}
+.news .rowMiddleNav .rowMiddleNav_selected{
+	background: #FFFFFF;
+	border-bottom: none;
+	border-top: 2px solid #F16D15;
+}
+.news .rowMiddleBox .rowMiddleBoxTag{
+	padding-bottom: 9px;
+}
+.news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_title{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_title h4{
+	width: 330px;
+	height: 26px;
+	text-align: center;
+	padding-top: 11px;
+	margin: 0 auto;
+	color: #F16D15;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_title p{
+	width: 330px;
+	height: 52px;
+	line-height: 26px;
+	margin: 0 auto;
+	text-align: center;
+	color: #888;
+	overflow: hidden;
+}
+ .news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_list{
+ 	width: 339px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	padding-right: 10px;
+ 	padding-left: 9px;
+ 	overflow: hidden;
+ }
+ .news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_list div{
+ 	width: 280px;
+ 	padding-left: 12px;
+ 	white-space: nowrap;
+ 	overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	float: left;
+ 	background: url(../img/bg_point.png) no-repeat 0px -12px;
+ }
+  .news .rowMiddleBox .rowMiddleBoxTag .rowMiddleBoxTag_list p{
+  	width: 26px;
+  	text-align: center;
+  	color: #F16D15;
+  	margin-right: 10px;
+  	float: right;
+  }
+/*----------------*/
+.news .rowMiddleBox .rowMiddleBoxTag:nth-child(2) .rowMiddleBoxTag_title h4{
+	padding: 15px 0;
+}
+.news .rowMiddleBox .rowMiddleBoxTag:nth-child(2) .rowMiddleBoxTag_title p{
+	height: 30px;
+	line-height: 30px;
+	padding-bottom: 3px;
+}
+.news .rowMiddleBox .rowMiddleBoxTag:nth-child(2) .rowMiddleBoxTag_title p a{
+	padding: 0 10px;
+}
+.news .rowMiddleBox .rowMiddleBoxTag:nth-child(3){
+	padding-top: 11px;
+}
+.split_line{
+	border-top: 1px dashed #dbdbdb;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+ 
+ /*-------------------*/
+#rowRight {
+ 	width: 240px;
+ }
+ .news .rowRight .newsRightSub>div{
+ 	height: 148px;
+ 	padding: 4px;
+ 	border: 1px solid #DBDBDB;
+ }
+ .news .rowRight .newsRightSub img{
+ 	width: 228px;
+ 	height: 148px;
+ }
+ /*----------*/
+.news .rowRight .newsRightSup{
+	border: 1px solid #DBDBDB;
+	margin-top: 14px;
+}
+.news .rowRight .newsRightSup .supTitle{
+	height: 32px;
+	line-height: 32px;
+	background: #F0F0F0;
+}
+.news .rowRight .newsRightSup .supTitle span{
+	float: right;
+	margin-right: 10px;
+}
+.news .rowRight .newsRightSup .supContent{
+	padding: 11px 10px 0;
+	
+}
+.news .rowRight .newsRightSup .supContent .supContentPic{
+	width: 218px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.news .rowRight .newsRightSup .supContent .supContentPic>div:first-child{
+	width: 110px;
+	height: 80px;
+	float: left;
+}
+.news .rowRight .newsRightSup .supContent .supContentPic>div:last-child{
+	width: 98px;
+	height: 80px;
+	float: right;
+}
+#z_pic img{
+	width: 110px;
+	height: 80px;
+	z-index: 1;
+}	
+#z_bg{
+	width: 110px;
+	height: 17px;
+	background: #000000;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+#z_text{
+	width: 110px;
+	height: 17px;
+	line-height: 17px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	z-index: 3;
+	cursor: pointer;
+}
+.news .rowRight .newsRightSup .supContent .supContentPic div span{
+	color: #F16D15;
+}
+.news .supContentPic div span b{
+	color: #F16D15;
+}
+.news .newsRightSup .supContentList .supContentListBox{
+	overflow: hidden;
+}
+.news .newsRightSup .supContentList .supContentListBox>div{
+	float: left;
+	width: 160px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 9px;
+	background: url("../img/bg_point.png") no-repeat scroll 0 -10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.news .newsRightSup .supContentList .supContentListBox>p{
+	float: right;
+	width: 40px;
+	height: 31px;
+	line-height: 31px;
+	color: #888;
+}
+/*资讯部分样式结束*/
+/*单机游戏部分样式开始*/
+.single .rowLeft .box_title{
+	overflow: hidden;
+}
+.single .rowLeft .box_title ul{
+	float: left;
+	overflow: hidden;
+}
+.single .rowLeft .box_title ul li{
+	width: 120px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #DBDBDB;
+	height: 32px;
+	line-height: 32px;
+}
+.single .rowLeft .box_title span{
+	float: right;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 10px;
+}
+/*---------------*/
+.single .rowLeft .box_body{
+	width: 720px;
+	height: 414px;
+	padding: 1px 4px;
+	overflow: hidden;
+}
+.single .rowLeft .box_body div{
+	width: 100px;
+	height: 185px;
+	padding: 14px 10px 0;
+	float: left;
+}
+.single .rowLeft .box_body div img{
+	width: 100px;
+	height: 137px;
+}
+.single .rowLeft .box_body div p{
+	text-align: center;
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.single .rowLeft .box_body div p:last-child{
+	height: 20px;
+	line-height: 20px;
+	color: #BBBBBB;
+}
+/*------------------*/
+.single .rowRight .boxRight_NavList{
+	width: 218px;
+	padding: 15px 10px 0;
+}
+.single .rowRight .box_title{
+	overflow: hidden;
+	background:#f0f0f0 url(../img/iconb.gif) no-repeat 7px 0px;
+}
+.single .rowRight .box_title h2{
+	margin-left: 15px;
+}
+.single .rowRight .box_title ul{
+	float: right;
+}
+.single .rowRight .box_title ul li{
+	width: 40px;
+	text-align: center;
+	border-left: 1px solid #DBDBDB;
+	list-style: none;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+}
+.single .rowRight .box_title ul li.boxRight_Nav_selected{
+	background: #FFFFFF;
+	border-top: 2px solid #F15D16;
+	border-bottom: 1px solid #FFFFFF;
+}
+/*-------------------*/
+.single .rowRight .boxRight_NavList .li{
+	width: 100%;
+	padding-bottom: 18px;
+	overflow: hidden;
+}
+.single .rowRight .boxRight_NavList .li .num{
+	float: left;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	margin-right: 5px;
+	text-align: center;
+	border: 1px solid #DBDBDB;
+	background: #E1DEDE;
+}
+.single .rowRight .boxRight_NavList .li .num.num1{
+	color: #FFFFFF;
+	border: 1px solid #F16D15;
+	background: #F16D15;
+}
+.single .rowRight .boxRight_NavList .li .num2{
+	color: #FFFFFF;
+	border: 1px solid #5C9E4F;
+	background: #5C9E4F;
+}
+.single .rowRight .boxRight_NavList .li .num3{
+	color: #FFFFFF;
+	border: 1px solid #2E99DD;
+	background: #2E99DD;
+}
+.single .rowRight .boxRight_NavList .li img{
+	width: 68px;
+	height: 68px;
+}
+.single .rowRight .boxRight_NavList .li .boxRight_NavList_content{
+	width: 193px;
+	float: left;
+	overflow: hidden;
+}
+.single .rowRight .boxRight_NavList .li .boxRight_NavList_tailL{
+	float: left;
+	width: 68px;
+	height: 68px;
+	margin-right: 10px;
+}
+.single .rowRight .boxRight_NavList .li .boxRight_NavList_tailR{
+	float: left;
+	width: 115px;
+	height: 68px;
+}
+.single .rowRight .boxRight_NavList .li .boxRight_NavList_tailR p{
+	height: 22px;
+	line-height: 22px;
+	color: #BBBBBB;
+}
+.single .rowRight .boxRight_NavList .li .boxRight_NavList_tailR p span{
+	color: #F16D15;
+}
+.single .boxRight_NavList  .boxRight_NavList_title{
+	display: block;
+}
+.single .boxRight_NavList  .boxRight_NavList_tail{
+	display: none;
+}
+.single .boxRight_NavList .on .boxRight_NavList_title{
+	display: none;
+}
+.single .boxRight_NavList .on .boxRight_NavList_tail{
+	display: block;
+}
+
+/*单机游戏部分样式结束*/
+
+
+
+/*热门单机游戏部分样式开始*/
+.hots .box{
+	overflow: hidden;
+}
+.hots .box_title{
+	overflow: hidden;
+}
+/*---------*/
+.hots .box_body .box_bodyNav{
+	overflow: hidden;
+	background:#EFEFEF;
+}
+.hots .box_body .box_bodyNav ul li{
+	width: 97px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-right: 1px solid #DBDBDB;
+	float: left;
+}
+.hots .box_body .box_bodyNav ul li:last-child{
+	width: 96px;
+	border-right: none;
+}
+.hots .box_body .box_bodyNav .box_bodyNav_selected{
+	background: #fff;
+}
+.hots .box_body .bodyNav_tag{
+	overflow: hidden;
+}
+.hots .box_body .bodyNav_tag .bodyNav_boxLeft{
+	width: 730px;
+	float: left;
+}
+.hots .box_body .box_bodyNav_box{
+	padding: 5px 0 0 7px;
+}
+
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub{
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub div p{
+	text-align: center;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub div p strong{
+	color: #F16D15;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub .picture01{
+	width: 190px;
+	height: 300px;
+	padding: 10px 8px 0 7px;
+	float: left;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub .picture01 a img{
+	width: 190px;
+	height: 260px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub .picture02{
+	width: 160px;
+	height: 145px;
+	padding: 10px 8px 0 7px;
+	float: left;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSub .picture02 a img{
+	width: 160px;
+	height: 105px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li{
+	width: 345px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	padding-left: 6px;
+	padding-right: 14px;
+	background: url(../img/bg_point.png) no-repeat 5px -8px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div{
+	padding-left: 9px;
+	overflow: hidden;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div p:first-child{
+	float: left;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div p:first-child a{
+	font-size: 14px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div p:first-child span{
+	color: #BBBBBB;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div p:last-child{
+	float: right;
+	border: 1px solid #DBDBDB;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 7px;
+	padding: 0 2px;
+	color: #BBBBBB;
+	/*background: #E1DEDE;*/
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxLeftSup ul li div p:last-child strong{
+	color: #F16D15;
+}
+/*-------------*/
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight{
+	width: 235px;
+	float: right;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_title{
+	margin-bottom: 6px;
+	margin-left: 7px;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+	background: url(../img/iconb.gif) no-repeat 0 -31px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list{
+	overflow: hidden;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li{
+	height: 32px;
+	line-height: 32px;
+	border-top: 1px solid #DBDBDB;
+	padding-top: 1px;
+	width: 235px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li span{
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	width: 14px;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	color: #888888;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li span.num1{
+	background: #F16D15;
+	border: 1px solid #F16D15;
+	color: #FFFFFF;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li span.num2{
+	background: #5C9E4F;
+	border: 1px solid #5C9E4F;
+	color: #FFFFFF;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li span.num3{
+	background: #2E99DD;
+	border: 1px solid #2E99DD;
+	color: #FFFFFF;
+}
+.hots .box_body .box_bodyNav_box .bodyNav_boxRight .bodyNav_boxRight_list ul li p{
+	float: left;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*热门单机游戏部分样式结束*/
+/*游戏视频部分样式开始*/
+.video .box{
+}
+.video .rowLeft .box_title{
+	overflow: hidden;
+}
+.video .rowLeft .box_title ul li{
+	list-style: none;
+	float: left;
+	width: 60px;
+	text-align: center;
+	line-height: 32px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #DBDBDB;
+}
+.video .rowLeft .box_bodySub{
+	overflow: hidden;
+	padding: 0 5px 3px 7px;
+}
+.video .rowLeft .box_bodySub>div{
+	padding: 10px 8px 0 7px;
+	float: left;
+}
+.video .rowLeft .box_bodySub img{
+	width: 164px;
+	height: 107px;
+}
+.video .rowLeft .box_bodySub p{
+	width: 164px;
+	height: 44px;
+	line-height: 22px;
+	text-align: center;
+}
+.video .box_bodySubVideo{
+	position: relative;
+}
+.video .box_bodySubVideo:hover strong {
+    background: rgba(0, 0, 0, 0) url("../img/icohova.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    width:25px;
+    position: absolute;
+    top: 41px;
+    left: 70px;
+}
+/*----------------*/
+.video .rowLeft .box_bodySup{
+	padding-left: 14px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.video .rowLeft .box_bodySup ul li{
+	width: 320px;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 19px;
+	padding-right: 15px;
+	background: url(../img/iconb.gif) no-repeat 0 -62px;
+}
+/*----------------*/
+.video .rowRight .box_body{
+	padding: 12px 0 5px 10px;
+}
+.video .rowRight .box_bodySub .box_bodySubPic{
+	width: 218px;
+	height: 143px;
+	margin-bottom: 17px;
+	position: relative;
+}
+.video .rowRight .box_bodySub .box_bodySubPic img{
+	width: 218px;
+	height: 143px;
+}
+.video .rowRight .box_bodySub .box_bodySubPic div[style="z-index: 2;"]{
+	width: 100%;
+	height: 17px;
+	background: #000000;
+	position: absolute;
+	bottom: 0;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.video .rowRight .box_bodySub .box_bodySubPic div[style="z-index: 3;"]{
+	width: 100%;
+	height: 17px;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+}
+.video .rowRight .box_bodySup ul li{
+	width: 211px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 9px;
+	background: url(../img/bg_point.png) no-repeat 0 -8px;
+}
+/*游戏视频部分样式结束*/
+
+/*游戏辅助部分样式开始*/
+.assistant .rowLeft .box_body{
+	padding: 10px 9px 4px 6px;
+	overflow: hidden;
+}
+.assistant .rowLeftL .rowLeft_tltle  h2{
+	color: #F16D15;
+	width: 344px;
+	padding-left: 8px;
+	border-bottom: 1px solid #DBDBDB;
+}
+.assistant .rowLeft .box_body .rowLeftL{
+	float: left;
+	width: 360px;
+}
+.assistant .rowLeft_video{
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.assistant .rowLeft_video>div{
+	float: left;
+	width: 164px;
+	padding: 0 8px;
+}
+.assistant .rowLeft_video .divLeft a img{
+	width: 164 px;
+	height: 107px;
+}
+.assistant .rowLeft_video div p{
+	text-align: center;
+	height: 17px;
+	line-height: 17px;
+}
+.assistant .rowLeft_list{
+	width: 334px;
+	padding: 10px 0 0 7px;
+}
+.assistant .rowLeft_list ul li{
+	list-style: none;
+	width: 334px;
+	padding-left: 11px;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url(../img/bg_point.png) no-repeat 0 -10px;
+}
+/*-------------------*/
+
+.assistant .rowLeft .rowLeftR{
+	width: 337px;
+	float: right;
+}
+.assistant .rowLeft .rowLeftR .rowLeftR_nav{
+	overflow: hidden;
+	width: 100%;
+}
+.assistant .rowLeft .rowLeftR .rowLeftR_nav ul li{
+	list-style: none;
+	width: 111px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: url(../img/navbg.jpg) repeat-x;
+	border-left: 1px solid #DBDBDB;
+	border-top: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;
+	float: left;
+}
+.assistant .rowLeft .rowLeftR .rowLeftR_nav ul li:last-child{
+	border-right: 1px solid #DBDBDB;
+}
+.assistant .rowLeft .rowLeftR .rowLeftR_nav .rowLeftR_nav_selected{
+	background: #FFFFFF;
+	border-bottom: #FFFFFF;
+	border-top: 2px solid #F16D15;
+}
+.assistant .rowLeft .rowLeftR .rowLeftR_content ul li{
+	list-style: none;
+	width: 334px;
+	padding-left: 11px;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url(../img/bg_point.png) no-repeat 0 -10px;
+}
+/*-------------------*/
+.assistant .rowRight .box_body{
+	padding-top: 6px;
+	margin: 0 1px 1px;
+}
+.assistant .rowRight .box_bodySub{
+	padding: 0 9px 6px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed  #DBDBDB;
+	overflow: hidden;
+}
+.assistant .rowRight .box_bodySup{
+	padding: 12px 9px 1px;
+	overflow: hidden;
+	
+}
+.assistant .rowRight .box_bodySup h3{
+	font-size: 14px;
+	color: #000000;
+}
+.assistant .rowRight ul li{
+	list-style: none;
+	display: block;
+	width: 211px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 9px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url(../img/bg_point.png) no-repeat 0px -10px;
+}
+.assistant .rowRight ul li a{
+	height: 30px;
+	line-height: 30px;
+}
+
+/*游戏辅助部分样式结束*/

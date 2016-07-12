@@ -1,0 +1,129 @@
+/*新闻列表页*/
+article header h2{
+	font-size: 16px;
+	color: #444444;
+	border-bottom: solid 1px #d6d6d6;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.newslist li{
+	display: inline-block;
+	margin-top: 10px;
+}
+.newslist li a{
+	display: inline-block;
+	vertical-align: top;
+	color: #444;
+	text-decoration: none;
+	width: 538px;
+	transition: text-shadow 1s linear;
+}
+.newslist li time{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 90px;
+}
+.newslist li:nth-child(5n){
+	border-bottom: solid 1px #CCCCCC;
+	padding-bottom: 10px;
+}
+.newslist li:hover{
+	text-shadow: 4px 1px 5px #444444;
+}
+
+
+
+
+/*底部导航样式*/
+.listnav li{
+	display: inline-block;
+	background-color:#368ECE ;
+	padding: 3px 10px ;
+	margin-right: 10px;
+	margin-top: 20px;
+	-webkit-transition: background-color 0.5s linear;
+}
+.listnav li a{
+	color: #fff;
+}
+.listnav li.no2,.listnav li:hover{
+	background-color: #CCCCCC;
+}
+/*热门文章区域样式*/
+.wenzhang div h3{
+	font-size: 18px;
+	border-bottom: solid 1px #317FC0;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+} 
+.wenzhang li:before{
+	content: counter(wztop);
+}
+.wenzhang li{
+	counter-increment: wztop;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 7px;
+}
+.wenzhang li:before{
+	background-color: #444444;
+	color: #FFFFFF;
+	padding: 7px 5px;
+	margin-right:5px;
+}
+.wenzhang li:last-child:before{
+	font-size: 13px;
+	padding: 7px 2px;
+}
+.wenzhang li:nth-child(1):before,.wenzhang li:nth-child(2):before,.wenzhang li:nth-child(3):before{
+	background-color: #368ECE;
+}
+.wenzhang li:hover{
+	text-shadow: 1px 3px 5px #000;
+	transition: text-shadow 1s linear;
+}
+/*点击排行榜样式*/
+.dianji{
+	margin-top: 20px;
+}
+.dianji div h3{
+	font-size: 18px;
+	border-bottom: solid 1px #317FC0;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+} 
+.dianji li:before{
+	content: counter(djtop);
+}
+.dianji li{
+	counter-increment: djtop;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 7px;
+}
+.dianji li:before{
+	background-color: #444444;
+	color: #FFFFFF;
+	padding: 7px 5px;
+	margin-right:5px;
+}
+.dianji li:last-child:before{
+	font-size: 13px;
+	padding: 7px 2px;
+}
+.dianji li:nth-child(1):before,.dianji li:nth-child(2):before,.dianji li:nth-child(3):before{
+	background-color: #368ECE;
+}
+.dianji li:hover{
+	text-shadow: 1px 3px 5px #000;
+	transition: text-shadow 1s linear;
+}
