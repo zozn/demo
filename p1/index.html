@@ -6,10 +6,6 @@
 		<title>仿某游戏网站首页</title>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/main.css" />
-		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
-		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-		<script type="text/javascript" src="js/common.js"></script>
-
 	</head>
 
 	<body>
@@ -5599,6 +5595,9 @@
 					</div>
 				</div>
 				<!--footer结束-->
+				<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+				<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+				<script type="text/javascript" src="js/common.js"></script>
 				<script type="text/javascript">
 					initTab(".navs .box_title ul li", ".navs .box_body .box_bodytag", "navsbox_title_selected");
 					initTab(".news .rowMiddleNav ul li",".news .rowMiddleBox .rowMiddleBoxTag","rowMiddleNav_selected");
@@ -5607,11 +5606,6 @@
 					initTab(".single .box_title ul li",".single .box_body .boxRight_NavList","boxRight_Nav_selected");
 					initTab(".single .rowRight ul li",".single .rowRight .box_body>div","boxRight_Nav_selected");
 					jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
-//					$(".single .boxRight_NavList .li").hover(function(){
-//						$(this).addClass("on");
-//					},function(){
-//						$(this).removeClass("on");
-//					});
 					$(".single .boxRight_NavList .li").hover(function(){
 						$(this).addClass("on")
 							   .siblings().removeClass("on");
