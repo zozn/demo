@@ -1,0 +1,229 @@
+#slideBox{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+#slideBox .hd{
+	height: 20px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+#slideBox .hd ul{
+	overflow: hidden;
+	float: left;
+}
+#slideBox .hd ul li{
+	float: left;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+#slideBox .hd ul li.on{
+	background: #f00;
+	color: #FFFFFF;
+}
+#slideBox .bd{
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+#slideBox .bd li{
+	vertical-align: middle;
+}
+#slideBox .bd img{
+	width: 100%;
+	height: 600px;
+}
+/*---------------*/
+#aboutUs{
+	background-color: #f4f4f4;
+}
+
+#aboutUs .sub{
+	overflow: hidden;
+}
+#aboutUs .sub>div{
+	width: 222px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 100px;
+}
+#aboutUs .sub>div img{
+	width: 120px;
+	height: 152px;
+	z-index: 0;
+}
+#aboutUs .sub .divImg{
+	width: 120px;
+	margin: 0 auto;
+	position: relative;
+}
+#aboutUs .sub .divImg .img_hid{
+	width: 120px;
+	height: 152px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+#aboutUs .sub .divImg .img_hid:hover{
+	opacity: 1;
+}
+#aboutUs .sub .divText p{
+	line-height: 24px;
+	padding: 0 5px;
+}
+/*-----------------------*/
+/*what we do部分样式*/
+
+#whatDo .sup{
+	overflow: hidden;
+	background-color: #13A8ED;
+	padding-bottom: 75px;
+}
+#whatDo .sup .title{
+	padding-top: 75px;
+}
+#whatDo .sup .title p{
+	color: #FFFFFF;
+}
+
+#whatDo .sub{
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#whatDo .imgScale{
+	float: left;
+	position: relative;
+}
+#whatDo .imgScale img{
+	width: 280px;
+	height: 410px;
+	z-index: 0;
+}
+#whatDo .imgScale .img_hid{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+#whatDo .imgScale:hover .img_hid{
+	opacity: 1;
+}
+#whatDo .imgScale:hover .img_show{
+	opacity: 0;
+}
+/*--------------------*/
+#successSt{
+	background-color: #10BDE0;
+	padding-bottom: 75px;
+}
+#successSt .storyImg{
+	overflow: hidden;
+}
+#successSt .imgContainer{
+	position: relative;
+	display: inline-block;
+}
+#successSt .storyImg .indent0{
+	z-index: 0;
+	width: 275px;
+	height: 193px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#successSt .storyImg .bigger{
+	width: 560px;
+}
+#successSt .storyImg .indent1{
+	z-index: 1;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	bottom: 80px;
+	opacity: 0;
+	left: 50%;
+    margin-left: -32px;
+}
+#successSt .imgContainer:hover .indent1{
+	opacity: 1;
+	transition: opacity 0.8s ease 0s;
+}
+/*---------------------*/
+#ourPartners{
+	background-color: #efefef;
+	padding: 75px 0;
+}
+#ourPartners img{
+	width: 1080px;
+	height: 289px;
+	margin: 0 40px;
+}
+
+/*---------------------------*/
+#contactUs{
+	border-bottom: 1px solid #FFFFFF;
+}
+#contactUs .contactSup{
+	padding-top: 75px;
+	background: url(../img/contact_01.png) no-repeat top /100% 100%;
+}
+#contactUs .contactSub{
+	padding-bottom: 75px;
+	background: url(../img/contact_02.png) no-repeat top /100% 100%;
+}
+#contactUs .textSub,#contactUs .textSup{
+	color: #FFFFFF
+}
+#contactUs .tail{
+	overflow: hidden;
+}
+#contactUs .contactUsForm{
+	float: left;
+}
+#contactUs .contactUsForm span,#contactUs .contactUsForm label{
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 25px;
+	line-height: 25px;
+}
+#contactUs .contactUsForm .juzhong{
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 56px;
+}
+#contactUs .contactUsForm textarea{
+	padding: 5px;
+}
+#contactUs .contactUsForm input{
+	margin-bottom: 10px;
+}
+#contactUs .contactUsForm input[type="submit"]{
+	padding: 2px 5px;
+	margin-top: 10px;
+	margin-left: 42px;
+}
+#contactUs .contactUsInfor{
+	float: right;
+	width: 400px;
+}
+#contactUs .contactUsInfor p{
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 3em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}

@@ -1,0 +1,45 @@
+/*joinus.html主体部分样式*/
+#joinUs{
+	background-color: #F4F4F4;
+}
+#joinUs .middle{
+	margin-bottom: 50px;
+}
+#joinUs .middle p{
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+#joinUs .middle p span{
+	color: cornflowerblue;
+	font-size: 14px;
+}
+#joinUs .sub{
+	overflow: hidden;
+	padding-bottom: 75px;
+}
+#joinUs .sub .subLeft{
+	float: left;
+}
+#joinUs .sub .subLeft img{
+	width: 300px;
+	height: 269px;
+	padding: 0 125px;
+}
+#joinUs .sub .subRight{
+	float: left;
+}
+#joinUs .sub .subRight p{
+	width: 580px;
+	font-size: 14px;
+	line-height: 30px;
+}
+#joinUs .sub .subRight h2{
+	font-size: 18px;
+	line-height: 2em;
+}
+#joinUs .sub .subRight span{
+	font-size: 16px;
+	line-height: 1.8em;
+}
